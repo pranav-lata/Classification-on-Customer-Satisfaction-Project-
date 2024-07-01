@@ -1,0 +1,5 @@
+This project predicts customer satisfaction using logistic regression, decision tree, and random forest classifiers. The dataset `cust_satisfaction.csv` is preprocessed by removing duplicates and handling missing values. Exploratory data analysis includes examining distributions of features like 'Type of Travel' and 'Class'. 
+
+Filtered datasets focus on records with maximum ratings for inflight services and satisfied female customers. Models are trained and evaluated, with logistic regression, decision tree, and random forest classifiers. Performance metrics like precision, recall, f1-score, and accuracy are calculated. Random forest showed the best performance with an 87% testing accuracy.
+
+Confusion matrices and classification reports provide insights into model performance, supported by visualizations using heatmaps. The project demonstrates the effectiveness of ensemble methods in improving prediction accuracy for customer satisfaction.
